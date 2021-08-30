@@ -1,6 +1,6 @@
 FROM ruby:3.0.2-alpine3.14
 
-RUN apk add --update build-base bash bash-completion libffi-dev tzdata postgresql-client
+RUN apk add --update build-base bash bash-completion libffi-dev tzdata postgresql-client postgresql-dev
 
 WORKDIR /app
 
