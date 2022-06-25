@@ -1,4 +1,4 @@
-FROM ruby:3.0.2-alpine3.14
+FROM ruby:3.1.2-alpine3.16
 
 RUN apk add --update build-base bash bash-completion libffi-dev tzdata postgresql-client postgresql-dev
 
